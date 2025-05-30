@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: "Chatterly - Chat App",
-    description: "metroMoove has got your last mile covered. Simplifying the process of...",
+    description: "A web-app where you can communicate , send and recieve messages anywhere in the world...",
     image: chatterly,
     tech: ["react", "tailwind", "firebase"],
     link: "https://chat-ruddy-alpha.vercel.app/"
@@ -71,10 +71,10 @@ const techIcons = {
 
 const RecentProjects = () => {
   return (
-    <section className="py-20 text-white">
+    <section className=" text-white">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-          A small selection of <span className="text-purple-400">recent projects</span>
+          A small selection of <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-500 bg-clip-text text-transparent">recent projects</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6">

@@ -44,7 +44,7 @@ const TypewriterText = () => {
   }, [displayText, typing, currentPhraseIndex]);
 
   return (
-  <p className="mt-6 text-lg text-white/80">
+  <p className="mt-6 text-lg text-white/80 ">
   <span className="block sm:inline">Hi! I'm Ezekiel,</span>{" "}
   <span className="block sm:inline">
     I am a professional{" "}

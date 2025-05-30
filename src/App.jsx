@@ -1,4 +1,5 @@
 import React, { forwardRef } from "react";
+import { Link } from 'react-scroll';
 import TypewriterText from "./typewritter";
 import './App.css';
 
@@ -6,7 +7,7 @@ const Hero = forwardRef((_, ref) => {
   return (
     <div
       ref={ref}
-      className="relative min-h-screen flex flex-col items-center justify-center px-4 text-white overflow-hidden"
+      className="relative pt-23 pb-14 flex flex-col items-center justify-center px-4 text-white overflow-hidden "
     >
       {/* Background */}
       <div className="absolute inset-0 -z-10">
@@ -21,14 +22,16 @@ const Hero = forwardRef((_, ref) => {
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Transforming Concepts<br />
           into Seamless <span className="text-purple-400">User</span><br />
-          <span className="text-purple-400">Experiences</span>
+          <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-500 bg-clip-text text-transparent">Experiences</span>
         </h1>
 
         <TypewriterText />
 
-        <button className="mt-10 px-6 py-3 bg-[#1e1e2f] text-white rounded-xl border border-white/20 hover:bg-purple-600 hover:text-black transition-all shadow-md">
+    <Link to="projects" smooth={true} duration={500}>
+        <button className="mt-10 px-6 py-3 bg-[#1e1e2f] text-white rounded-xl border border-white/20 hover:bg-purple-600 hover:text-black transition-all shadow-md ">
           Show my work <span className="ml-2">↗</span>
         </button>
+        </Link>
       </div>
     </div>
   );

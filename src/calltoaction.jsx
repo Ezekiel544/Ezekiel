@@ -28,13 +28,13 @@ const CallToAction = () => {
       <div className="mt-20 w-full flex flex-col md:flex-row justify-between items-center text-sm text-white/80 z-10 max-w-6xl">
         <p>Copyright © 2024  Ezekiel chikezie</p>
         <div className="flex gap-3 mt-4 md:mt-0">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-white/10 hover:bg-white/20 transition">
+          <a href="https://github.com/Ezekiel544" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-white/10 hover:bg-white/20 transition">
             <FaGithub />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-white/10 hover:bg-white/20 transition">
+          <a href="https://x.com/EzekielCrrypt" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-white/10 hover:bg-white/20 transition">
             <FaTwitter />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-white/10 hover:bg-white/20 transition">
+          <a href="https://www.linkedin.com/in/ezekiel-chikezie-7a5371302" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-white/10 hover:bg-white/20 transition">
             <FaLinkedin />
           </a>
         </div>
