@@ -21,19 +21,23 @@ const ScrollNav = () => {
   }, [lastScrollY]);
 
   return (
-    <div
-      className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-transform duration-300 me-5 ${
-        showNav ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10 pointer-events-none'
-      }`}
-    >
-      <ul className="flex items-center justify-center me-5 gap-5 sm:gap-8 px-4 py-2 sm:px-8 sm:py-3 bg-[#0f1624]/70 text-white text-sm sm:text-base font-semibold rounded-xl border border-white/10 shadow-md backdrop-blur-sm">
+<div
+  className={`fixed top-6 left-[50%] translate-x-[-50%] sm:left-1/2 sm:translate-x-[-50%] 
+              transition-transform duration-300 z-50 w-max max-w-[95vw]
+              ${showNav ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10 pointer-events-none'}
+              sm:inset-x-auto inset-x-[8px]`}
+>
+
+
+
+      <ul className="flex items-center justify-center gap-5 sm:gap-8 px-4 py-2 sm:px-8 sm:py-3 bg-[#0f1624]/70 text-white text-sm sm:text-base font-semibold rounded-xl border border-white/10 shadow-md backdrop-blur-sm">
         <li className="cursor-pointer hover:text-gray-300 transition">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="cursor-pointer hover:text-gray-300 transition">
-          <Link to="projects" smooth={true} duration={500} >
+          <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
