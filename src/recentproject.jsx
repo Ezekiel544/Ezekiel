@@ -71,7 +71,7 @@ const techIcons = {
 
 const RecentProjects = () => {
   return (
-    <section className=" text-white">
+    <section className=" text-white border border-red-500 ">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
           A small selection of <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-500 bg-clip-text text-transparent">recent projects</span>

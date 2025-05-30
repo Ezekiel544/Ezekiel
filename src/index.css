@@ -1,5 +1,9 @@
 body {
   overflow-x: hidden;
+  
 }
+/* Reset basic styles to control overflow */
+
+
 @import "tailwindcss";
 

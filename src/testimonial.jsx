@@ -38,7 +38,7 @@ const testimonials = [
 ];
 
 const TestimonialsMarquee = () => (
-  <div className=" py-4 px-4 overflow-hidden">
+  <div className=" py-5 px-4 overflow-hidden border border-red-500">
   <h2 className="text-center text-4xl font-bold mb-12 text-white">
   Kind words from{' '}
   <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-500 bg-clip-text text-transparent">

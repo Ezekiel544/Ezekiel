@@ -3,7 +3,7 @@ import codeOverlay from "../src/assets/earth.png"; // Replace with your actual i
 import CopyEmailCard from "./copyemailcard";
 const NextFeatureSection = () => {
   return (
-    <section className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 pt-10 pb-16">
+    <section className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 pt-10 pb-16 border border-red-500">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-6 items-stretch">
         {/* LEFT - Two stacked cards */}
         <div className="flex flex-col gap-5 lg:gap-6 h-[380px] sm:h-[420px] md:h-[440px]">

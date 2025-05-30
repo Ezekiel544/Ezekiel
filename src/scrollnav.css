@@ -4,3 +4,6 @@
     transform: translateX(-50%) !important;
   }
 }
+body {
+  overflow-x: hidden;
+}

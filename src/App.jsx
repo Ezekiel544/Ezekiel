@@ -7,7 +7,7 @@ const Hero = forwardRef((_, ref) => {
   return (
     <div
       ref={ref}
-      className="relative pt-23 pb-14 flex flex-col items-center justify-center px-4 text-white overflow-hidden "
+      className="relative pt-23 pb-14 flex flex-col items-center justify-center px-4 text-white overflow-hidden border border-red-500"
     >
       {/* Background */}
       <div className="absolute inset-0 -z-10">

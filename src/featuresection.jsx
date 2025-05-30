@@ -6,7 +6,7 @@ const techStack = ['reactJS', 'nextJS', 'tailwind', 'Typescript'];
 
 const FeatureSection = () => {
   return (
-    <section className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16  ">
+    <section className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16  border border-red-500">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-6 items-stretch">
         {/* LEFT - Laptop Image */}
         <div className="relative col-span-1 lg:col-span-2 rounded-2xl overflow-hidden group hover:scale-[1.01] transition-transform duration-300 ease-in-out h-[380px] sm:h-[420px] md:h-[440px]">
