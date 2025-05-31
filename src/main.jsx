@@ -16,7 +16,7 @@ function Root() {
   const heroRef = useRef(null);
 
   return (
-    <main className="bg-gradient-to-br from-[#0f0f1b] via-[#0d0d20] to-[#020024] border-2 border-red-500">
+    <main className="bg-gradient-to-br from-[#0f0f1b] via-[#0d0d20] to-[#020024] ">
       <ScrollNav heroRef={heroRef} />
 
       <Element name="about">

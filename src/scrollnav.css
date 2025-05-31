@@ -1,9 +1,9 @@
-/* @media (max-width: 390px) {
+@media (max-width: 390px) {
   .nav-adjust-390 {
     left: 90% !important;
     transform: translateX(-50%) !important;
   }
-} */
+}
 body {
   overflow-x: hidden;
 }
