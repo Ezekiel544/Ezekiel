@@ -1,6 +1,6 @@
 @media (max-width: 390px) {
   .nav-adjust-390 {
-    left: 90% !important;
+    left: 98% !important;
     transform: translateX(-50%) !important;
   }
 }
