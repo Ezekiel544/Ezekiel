@@ -1,5 +1,23 @@
 @media (max-width: 390px) {
   .nav-adjust-390 {
+    left: 96% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+@media (max-width: 390px) {
+   .nav-adjust-390 {
+    left: 90% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+@media (max-width: 370px) {
+   .nav-adjust-390 {
+    left: 94% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+@media (max-width: 340px) {
+   .nav-adjust-390 {
     left: 98% !important;
     transform: translateX(-50%) !important;
   }
