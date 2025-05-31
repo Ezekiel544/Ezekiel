@@ -29,7 +29,7 @@ const workData = [
 
 const WorkExperience = () => {
   return (
-    <div className=" text-white px-4 py-16  flex flex-col items-center border border-red-500 ">
+    <div className=" text-white px-4 py-16  flex flex-col items-center ">
       <h2 className="text-4xl md:text-4xl font-bold mb-12 text-center">
         <span className="text-white">My </span>
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">

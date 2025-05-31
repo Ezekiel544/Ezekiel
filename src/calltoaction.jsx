@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const CallToAction = () => {
   return (
-    <section className="relative  text-white py-10 px-6 text-center flex flex-col items-center justify-center border border-red-500">
+    <section className="relative  text-white py-10 px-6 text-center flex flex-col items-center justify-center ">
       {/* Grid background (optional) */}
       <div className="absolute inset-0 bg-[radial-gradient(#ffffff0f_1px,transparent_1px)] [background-size:40px_40px] pointer-events-none z-0" />
 

@@ -22,9 +22,7 @@ const ScrollNav = () => {
 
   return (
 <div
-  className={`fixed top-4 z-50 transition-all duration-300
-              left-1/2 transform -translate-x-1/2
-              nav-adjust-390 
+  className={`
               ${showNav ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10 pointer-events-none'} border border-red-500`}
 >
 
