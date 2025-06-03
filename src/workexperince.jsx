@@ -16,8 +16,8 @@ const workData = [
     icon: Expsecond,
   },
   {
-    title: 'Frontend Developer - Easyspend',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+    title: 'Frontend Developer - CivicSpark',
+    desc: 'one of the unique dev of a civic web app  built for the government and the citizens.',
     icon: Expthird,
   },
   {
