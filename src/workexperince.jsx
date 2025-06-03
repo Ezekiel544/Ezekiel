@@ -6,13 +6,13 @@ import Expthird from '../src/assets/expthird.png'
 import Expfourth from '../src/assets/expfourth.png'
 const workData = [
   {
-    title: 'Software Engineer - Hitch Pay',
-    desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+    title: 'Senior Frontend Developer - Flibber',
+    desc: 'Led and monitored a team of frontend developers on developing a DAPP platform using React.js, enhancing interactivity.',
     icon: Expfirst,
   },
   {
-    title: 'Mobile App Dev - Metromoove',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Web Developer / Founder',
+    desc: 'Developed Chatterly, a real-time chat app using React and Ensured accessibility and mobile responsiveness .',
     icon: Expsecond,
   },
   {
@@ -21,7 +21,7 @@ const workData = [
     icon: Expthird,
   },
   {
-    title: 'Lead Frontend Developer - Umecarts',
+    title: 'Lead Frontend Developer - chatterly',
     desc: 'Developed and maintained user-facing features using modern frontend technologies.',
     icon: Expfourth,
   },
